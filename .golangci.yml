@@ -31,7 +31,7 @@ linters-settings:
   gocyclo:
     min-complexity: 15
   goimports:
-    local-prefixes: github.com/xiachufang/krakend-ipfilter
+    local-prefixes: github.com/Noah-Labs-Development/krakend-ipfilter
   golint:
     min-confidence: 0
   gomnd:
@@ -71,7 +71,7 @@ linters:
     - gocritic
     - gocyclo
     - gofmt
-  #  - goimports
+    #  - goimports
     - golint
     - gomnd
     - goprintffuncname
@@ -124,7 +124,7 @@ issues:
         - govet
 run:
   skip-dirs:
-      - internal/proto
+    - internal/proto
 # golangci.com configuration
 # https://github.com/golangci/golangci/wiki/Configuration
 service:

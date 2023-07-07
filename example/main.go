@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 
+	ipfilter "github.com/Noah-Labs-Development/krakend-ipfilter/engine/gin"
 	"github.com/gin-gonic/gin"
 	"github.com/luraproject/lura/config"
 	"github.com/luraproject/lura/logging"
@@ -12,7 +13,6 @@ import (
 	krakendgin "github.com/luraproject/lura/router/gin"
 	"github.com/luraproject/lura/transport/http/client"
 	http "github.com/luraproject/lura/transport/http/server"
-	ipfilter "github.com/xiachufang/krakend-ipfilter/engine/gin"
 )
 
 func main() {

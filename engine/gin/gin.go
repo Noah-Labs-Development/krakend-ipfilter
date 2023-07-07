@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
+	ipfilter "github.com/Noah-Labs-Development/krakend-ipfilter"
 	"github.com/gin-gonic/gin"
 	"github.com/luraproject/lura/config"
 	"github.com/luraproject/lura/logging"
-	ipfilter "github.com/xiachufang/krakend-ipfilter"
 )
 
 // Register register a ip filter middleware at gin

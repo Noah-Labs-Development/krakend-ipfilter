@@ -1,4 +1,4 @@
-module github.com/xiachufang/krakend-ipfilter
+module github.com/Noah-Labs-Development/krakend-ipfilter
 
 go 1.14
 
